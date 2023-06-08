@@ -1,0 +1,115 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.link li a{
+  color: yellow;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.body {
+  background-image: url("home.jpg");
+}
+.quote {
+  color: orangered;
+  position: relative;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  animation: quote 1s 0s;
+  text-shadow: 15px;
+  text-decoration-style: solid;
+}
+
+.img {
+  height: 200px;
+  position: relative;
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+  animation: img 0.5s 0s;
+}
+
+.center {
+  position: relative;
+  height: 400px;
+  font-size: large;
+  font-weight: 200;
+  font-family: "Bakbak One";
+  animation: center 1s 0s;
+  text-align: center;
+  margin-top: 300px;
+}
+.newbutton{
+  text-align: center;
+  margin-top: -350px;
+}
+
+
+.button:active {
+  background-color: rgb(248, 238, 238);
+}
+
+@keyframes quote {
+  0% {
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 0%;
+    top: -50px;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 0px;
+  }
+}
+
+@keyframes img {
+  0% {
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes center {
+  0% {
+    opacity: 0%;
+  }
+
+  80% {
+    opacity: 0%;
+    top: 40px;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 0px;
+  }
+}
+
+@keyframes newbutton {
+  0% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+    object-position: 0%;
+  }
+}
